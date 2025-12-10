@@ -43,6 +43,7 @@ public class Main {
 	}
 	
 
+
 	private static long factorialBucle(int n) {
 		int resultado=1;
 		for (int i =n;i>0;i--) {
@@ -51,6 +52,15 @@ public class Main {
 		return resultado;
 	}
 	
+	
+
+
+	/**
+	 * Calcula el factorial de un número utilizando un enfoque recursivo.
+	 *
+	 * @param n Número entero del que se quiere obtener el factorial.
+	 * @return Factorial de n, calculado mediante recursividad.
+	 */
 	
 
 	private static long factorialRec(int n) {
