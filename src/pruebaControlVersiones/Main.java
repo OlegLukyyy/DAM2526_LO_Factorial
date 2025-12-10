@@ -18,9 +18,23 @@ public class Main {
 		
 	}
 	private static int pedirNumero() {
+	    int num;
+	    boolean valido;
 
-        System.out.print("Introduce un número entero mayor o igual que 0: ");
-        return sc.nextInt();
+	    do {
+	        System.out.print("Introduce un número entero mayor o igual que 0: ");
+	        if (sc.hasNextInt()) {
+	            num = sc.nextInt();
+	            valido = true;
+	        } else {
+	            System.out.println("Entrada no válida. Introduce un entero.");
+	            sc.next();
+	            valido = false;
+	            num = -1;
+	        }
+	    } while (!valido);
+
+	    return num;
 	}
 
 }
