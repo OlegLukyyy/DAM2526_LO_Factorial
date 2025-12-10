@@ -1,0 +1,84 @@
+    1  history -w
+    2  ~/.bash_history
+    3  cd eclipse-workspace
+    4  cd LukianetsOleh_Factorial/
+    5  git init 
+    6  git add .
+    7  git commit -m "Version A: Solicitar numero positivo al usuario"
+    8  echo > .gitignore
+    9  git restore --staged /bin
+   10  git remote add origin https://github.com/OlegLukyyy/DAM2526_LO_Factorial.git
+   11  git push -u origin main
+   12  git branch -M main
+   13  git push -u origin main
+   14  git add .
+   15  git commit "Version B: Implementacion de funcion para pedir numero a usuario"
+   16  git commit -m "Version B: Implementacion de funcion para pedir numero a usuario"
+   17  git push
+   18  git add .
+   19  git commit -m "Version C: Aviso de numero seleccionado en la ultima linea del main"
+   20  git push
+   21  git branch factorial_recursivo
+   22  git add .
+   23  git commit -m "Version F1: Implementación de función factorialRec"
+   24  git add .
+   25  git commit -m "Version F2: Modificación en la última línea del main()"
+   26  git add .
+   27  git commit -m "Version F3: Documentacion Proyecto"
+   28  git checkout main
+   29  git log --oneline
+   30  git reset --hard 94f10f6
+   31  git log --oneline
+   32  git switch factorial_recursivo
+   33  git add .
+   34  git commit -m "Version F1: Funcion Factorial"
+   35  git add . 
+   36  git commit -m "Version F2: Modificacion ultima linea main()"
+   37  git add .
+   38  git commit -m "Version F3: Documentacion factorial()"
+   39  	git log --oneline
+   40  git switch main
+   41  git add .
+   42  git commit -m "Version D: Validacion de numero entero en pedirNumero()"
+   43  git push
+   44  git add .
+   45  git commit -m "Version E: Implementacion de funcion factorial con bucle for"
+   46  git push
+   47  git add .
+   48  git commit -m "Version F: Modificacion ultima linea Main para mostrar resultado factorial"
+   49  git push
+   50  	git log --oneline
+   51  git log
+   52  git log --oneline --graph --all
+   53  git checkout factorial_recursivo
+   54  git rebase main
+   55  git add .
+   56  git commit
+   57  $ git log --oneline --graph --all
+   58  git log --oneline --graph --all
+   59  git push
+   60  branch factorial_recursivo
+   61  git switch factorial_recursivo
+   62  git rebase --continue
+   63  git add .
+   64  git rebase --continue
+   65  git add .
+   66  git rebase --continue
+   67  git rebase --continue
+   68  git rm --cached bin/pruebaControlVersiones/Main.class
+   69  git rebase --continue
+   70  git add .
+   71  git rebase --continue
+   72  git add .
+   73  git commit -m "Version F4: FIN"
+   74  git push
+   75  git push --set-upstream origin factorial_recursivo
+   76  cd src
+   77  nano Main.java
+   78  git log --oneline
+   79  git switch main
+   80  git revert 02e0b79
+   81  git revert
+   82  $ git log --oneline
+   83  git log --oneline
+   84  history > LO_historial.txt
