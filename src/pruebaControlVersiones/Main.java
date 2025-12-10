@@ -37,6 +37,7 @@ public class Main {
 	    return num;
 	}
 	
+
 	private static long factorialBucle(int n) {
 		int resultado=1;
 		for (int i =n;i>0;i--) {
@@ -46,4 +47,12 @@ public class Main {
 	}
 	
 	
+
+	private static long factorialRec(int n) {
+	    if (n == 0 || n == 1) {
+	      return 1;
+	    }
+
+	    return n * factorialRec(n - 1);
+	}
 }
