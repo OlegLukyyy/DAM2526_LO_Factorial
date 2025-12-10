@@ -13,11 +13,11 @@ public class Main {
         } else {
             System.out.println("Has introducido el número: " + num);
         }
-
+        System.out.println("RESULTADO - En versiones posteriores se calculará el factorial del número " + num);
        
 		
 	}
-	public static int pedirNumero() {
+	private static int pedirNumero() {
 
         System.out.print("Introduce un número entero mayor o igual que 0: ");
         return sc.nextInt();
