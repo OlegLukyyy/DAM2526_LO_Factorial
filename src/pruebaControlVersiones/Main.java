@@ -13,8 +13,13 @@ public class Main {
         } else {
             System.out.println("Has introducido el número: " + num);
         }
+
         System.out.println("RESULTADO - El factorial del número " + num + " es " + factorialBucle(num));
         System.out.println("Proceso completado usando el método recursivo.");
+
+        System.out.println("RESULTADO - El factorial del número " + num + " es " + factorialRec(num));
+       
+
 		
 	}
 	private static int pedirNumero() {
